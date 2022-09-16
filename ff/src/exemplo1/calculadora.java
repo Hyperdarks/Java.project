@@ -1,6 +1,6 @@
 package exemplo1;
 
-//criador Felipe Guilherme Silva
+//criador Felipe Guilherme
 import java.util.Scanner;
 
 public class calculadora {
@@ -10,6 +10,7 @@ public class calculadora {
 		double div, mult, sub, adi;
 		double num1, num2;
 		char resposta = 's';
+		
 
 		while (resposta == 's' || resposta == 'S') {
 			System.out.println("digite o primeiro numero:");
@@ -40,7 +41,7 @@ public class calculadora {
 			}
 			System.out.println("Você quer continuar?\n" + "Sim\n" + "Não\n");
 			resposta = teclado.next().charAt(0);
-			if (resposta == 'n' || resposta == 'N') {
+			if (resposta == 'N' || resposta == 'n' ) {
 				teclado.close();
 				System.out.println("Você decidiu sair\n" + "---------------Programa encerrado----------------\n");
 			}
