@@ -15,40 +15,40 @@ public class NotaContador {
 			if (nota >= 90) {
 				System.out.println("A");
 				contador = contador + nota;
-				contadorVezes = contadorVezes + 1;
-				conA = conA + 1;
+				contadorVezes++;
+				conA++;
 			} else if (nota >= 80) {
 				System.out.println("B");
 				contador = contador + nota;
-				contadorVezes = contadorVezes + 1;
-				conB = conB + 1;
+				contadorVezes++;
+				conB++;
 			} else if (nota >= 70) {
 				System.out.println("C");
 				contador = contador + nota;
-				contadorVezes = contadorVezes + 1;
-				conC = conC + 1;
+				contadorVezes++;
+				conC++;
 
 			} else if (nota >= 60) {
 				System.out.println("D");
 				contador = contador + nota;
-				contadorVezes = contadorVezes + 1;
-				conD = conD + 1;
+				contadorVezes++;
+				conD++;
 			} else if (nota >= 50) {
 				System.out.println("E");
 				contador = contador + nota;
-				contadorVezes = contadorVezes + 1;
-				conE = conE + 1;
+				contadorVezes++;
+				conE ++;
 
 			} else {
 				System.out.println("F");
 				contador = contador + nota;
-				contadorVezes = contadorVezes + 1;
-				conF = conF + 1;
+				contadorVezes++;
+				conF++;
 
 			}
-			System.out.println("A media é:" + contador / contadorVezes);
-			System.out.println("Contador A: " + conA + "\nContador B: " + conB + "\nContador C: " + conC + "\nContador D:" 
-			+ conD + "\nContador E: " + conE + "\nContador F: " + conF);
+			System.out.println("A media é:\t" + contador / contadorVezes);
+			System.out.println("Contador A:\t" + conA + "\nContador B:\t" + conB + "\nContador C:\t" + conC + "\nContador D:\t" 
+			+ conD + "\nContador E:\t" + conE + "\nContador F:\t" + conF);
 
 			System.out.println("Você quer continuar?" + "\nsim ou não");
 			char opcao = teclado.next().charAt(0);
