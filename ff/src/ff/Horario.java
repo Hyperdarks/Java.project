@@ -22,6 +22,8 @@ public class Horario {
 		
 		System.out.println(hora+ ":"+minuto+":"+segundo);
 		
+		sc.close();
+		
 
 	}
 
