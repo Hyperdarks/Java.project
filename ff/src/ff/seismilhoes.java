@@ -6,7 +6,7 @@ public class seismilhoes {
 
 	public static void main(String[] args) {
 		SecureRandom randomNumbers = new SecureRandom();
-		int[] freq = new int[] { 0, 1, 2, 3, 4, 5 };
+		int[] freq = new int[] { 0, 0, 0, 0, 0, 0 };
 
 		for (int roll = 1; roll <= 6000000; roll++) {
 			int face = 1 + randomNumbers.nextInt(6);
@@ -33,10 +33,6 @@ public class seismilhoes {
 			}
 		}
 		System.out.println("Face\tFrequencia");
-		for (int i = 1; i <= 6; i++) {
-			// System.out.println("\t" + (i) + freq[ i - 1]);
-
-		}
 		System.out.println("1-\t" + freq[0]);
 		System.out.println("2-\t" + freq[1]);
 		System.out.println("3-\t" + freq[2]);
