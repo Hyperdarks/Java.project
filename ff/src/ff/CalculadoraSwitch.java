@@ -37,7 +37,7 @@ public class CalculadoraSwitch {
 				System.out.println(resultado);
 				break;
 			case 's':
-				System.out.println("você decediu sair");
+				System.out.println("você decidiu sair");
 				teclado.close();
 				System.exit(0);
 				
