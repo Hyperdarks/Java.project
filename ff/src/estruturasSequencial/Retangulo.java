@@ -22,7 +22,7 @@ public class Retangulo {
 	    System.out.println(String.format("PERIMETRO = %.4f",perimetro));
 	    System.out.println(String.format("DIAMETRO = %.4f",diagonal));
 		
-		
+		sc.close();
 
 	}
 
