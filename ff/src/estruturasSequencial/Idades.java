@@ -26,7 +26,7 @@ public class Idades {
 		
 		System.out.println("A idade media de "+nome1+" e "+ nome2+" eh de "+ media+" anos");
 		
-		
+		sc.close();
 
 	}
 

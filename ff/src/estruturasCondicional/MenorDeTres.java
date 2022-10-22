@@ -25,7 +25,6 @@ public class MenorDeTres {
 		}
 		
 		System.out.println("MENOR = "+menor);
-		
+		sc.close();
 	}
-
 }
