@@ -24,7 +24,7 @@ public class Idades {
 		
 		double media = (double) (idade1 + idade2) / 2;
 		
-		System.out.println("A idade media de "+nome1+" e "+ nome2+" eh de "+ media+" anos.");
+		System.out.println("A idade media de "+nome1+" e "+ nome2+" eh de "+ media+" anos");
 		
 		
 
