@@ -36,6 +36,8 @@ public class somaVetor {
 		System.out.println("SOMA = "+ String.format("%.2f", soma));
 		System.out.println("MEDIA = "+ String.format("%.2f", media));
 		
+		sc.close();
+		
 	}
 
 }
